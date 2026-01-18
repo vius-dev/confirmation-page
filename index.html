@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Email Confirmed · ImFine</title>
+  <title>Email Confirmed · FineApp</title>
 
   <style>
     :root {
@@ -125,10 +125,10 @@
 
     <p>
       Thanks for verifying your email.  
-      Your <strong>ImFine</strong> account is now active and ready to use.
+      Your <strong>FineApp</strong> account is now active and ready to use.
     </p>
 
-    <a class="button" id="openApp">Open App</a>
+    <a class="button" id="openApp">Back</a>
   </div>
 
   <script>
@@ -136,7 +136,7 @@
 
     openAppButton.addEventListener('click', () => {
       // Attempt to open the native app
-      window.location.href = 'imfine://';
+      window.location.href = 'fineapp://';
 
       // Give the OS time to switch to the app
       setTimeout(() => {
@@ -162,3 +162,4 @@
   </script>
 </body>
 </html>
+
